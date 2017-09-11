@@ -1,0 +1,31 @@
+{
+  "name": "errand-neural",
+  "version": "0.1.1",
+  "description": "errand worker component for working with artificial neural networks (ANNs)",
+  "main": "lib/errand-neural.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "kue": "^0.11.6",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "synaptic": "^1.1.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errandjs/errand-neural.git"
+  },
+  "author": "mattcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/errandjs/errand-neural/issues"
+  },
+  "homepage": "https://github.com/errandjs/errand-neural#readme"
+}
